@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#42d5b3</color>
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="applogo">#0da180</color>
+    <color name="colorLogo">#28d8a1</color>
+    <color name="colorFacebook">#4267b2</color>
+    <color name="colorGoogle">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="textcolor">#FFFFFF</color>
+    <color name="color1">#403C53</color>
+</resources>

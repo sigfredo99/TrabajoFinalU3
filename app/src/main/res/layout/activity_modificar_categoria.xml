@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ModificarCategoria">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="MODIFICAR CATEGORIA"
+        android:textColor="@color/colorGoogle"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/idCM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="0.5dp"
+        />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="0.5dp"
+      android:id="@+id/UIDM"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Nombre">
+
+        <EditText
+            android:id="@+id/nombreCategoriaU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="5dp"
+            android:inputType="textPersonName"
+         />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="DESCRIPCION">
+
+        <EditText
+            android:id="@+id/descripcionCategoriaU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="5dp"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Tipo">
+
+        <Spinner
+            android:id="@+id/spinnerU"
+            android:layout_width="match_parent"
+            android:layout_height="51dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+
+        <Button
+            android:id="@+id/btnModificarCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:background="@drawable/botonredondeado"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:inputType="text"
+            android:text="AGREGAR"
+            android:textColor="@color/colorGoogle"
+            android:textSize="14sp" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

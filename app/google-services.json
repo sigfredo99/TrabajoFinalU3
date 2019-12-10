@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "184509357902",
+    "firebase_url": "https://sistemagestioncuentas-72de8.firebaseio.com",
+    "project_id": "sistemagestioncuentas-72de8",
+    "storage_bucket": "sistemagestioncuentas-72de8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184509357902:android:800e8817bf4e3cc5",
+        "android_client_info": {
+          "package_name": "com.example.sistemagestioncuentas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184509357902-hg45qcibir48dt5p4u0eeevn8opu61m4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sistemagestioncuentas",
+            "certificate_hash": "b2b9fd10fab197ad0a4004a63a37652775be0349"
+          }
+        },
+        {
+          "client_id": "184509357902-qhajjnup1148rac9jcis0lmho70gnt6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvRiaHBfSMEnaK6zMlr3lrNk1RlzEzWZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184509357902-qhajjnup1148rac9jcis0lmho70gnt6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

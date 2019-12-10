@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/imagen"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_marginTop="25dp"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:src="@drawable/ic_launcher_background" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idcategoria_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="ID categoria_A"
+                android:textSize="1dp" />
+
+            <TextView
+                android:id="@+id/idcategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="ID categoria"
+                android:textSize="1dp" />
+
+
+            <TextView
+                android:id="@+id/nombrecategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="nombre categoria"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/descripcionCategoriaa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="descripcioncategoria"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tipocategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Tipo Categoria"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:id="@+id/Ver"
+                android:src="@drawable/ic_remove_red_eye_black_24dp"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:id="@+id/Modificar"
+                android:src="@drawable/ic_edit_black_24dp"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:id="@+id/Eliminar"
+                android:src="@drawable/ic_delete_black_24dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+</android.support.v7.widget.CardView>

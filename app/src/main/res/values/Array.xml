@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipomovimiento">
+        <item>Ingresos</item>
+        <item>Egresos</item>
+    </string-array>
+
+    <string-array name="IngresoUsuales">
+        <item>Ingreso Usual</item>
+        <item>Ingreso Inusual</item>
+    </string-array>
+
+    <string-array name="EgresoUsuales">
+        <item>Egreso Usual</item>
+        <item>Egreso Inusual</item>
+    </string-array>
+</resources>
